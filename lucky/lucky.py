@@ -13,7 +13,8 @@ input_frame.pack(side=TOP)
 input_field=Entry(input_frame, font=("arial", 18, "bold"), width=45, justify=RIGHT)
 input_field.grid(row=0, column=0)
 
-input_field.pack(pady=10, padx=10)
+input_field.pack(ipady=10)
+
 
 
 
