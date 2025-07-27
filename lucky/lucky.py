@@ -3,7 +3,7 @@ from tkinter import *
 
 win = Tk()
 win.title("calculator")
-win.geometry("515x365")
+win.geometry("425x365")
 
 win.resizable(0, 0)
 # function to update the input field when a button is clicked
@@ -32,7 +32,7 @@ expression = ""
 input_text = StringVar()
 
 
-input_frame=  Frame(win, width=515, height=50)
+input_frame=  Frame(win, width=400, height=50)
 input_frame.pack(side=TOP)
 
 input_field=Entry(input_frame, font=("arial", 18, "bold"), width=45, justify=RIGHT, textvariable=input_text)
